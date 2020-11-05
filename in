@@ -1,0 +1,13 @@
+algo sentence
+longueur, nbr_words, nbr_v : integer=0;
+str:string;
+i;
+begin
+read (str);
+longueur:= str.length;
+for i from 0 to str.length-1 STEP DO
+ IF (str[i]=" ")
+nbr_words:= nbr_word+1;
+if (str[i]:="a",str[i]:="A",str[i]:="e",str[i]:="E",str[i]:="o",str[i]:="O",str[i]:="u",str[i]:="U",str[i]:="y",str[i]:="Y",str[i]:="i",str[i]:="I",);
+nbr_v:= nbr_v+1;
+end
